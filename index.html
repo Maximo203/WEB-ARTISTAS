@@ -1,57 +1,361 @@
 <html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>pagina-web</title>
 </head>
 <body>
+<header>
+    <div class="titulo-principal">
 
-<h1>NUESTROS ARTISTAS</h1>
+        <h1>Somos Replay Music Store,
+            al igual que vos,
+            amamos la musica!, aca vas a encontrar todo
+            de tus artistas favoritos, sus discos, merchandising,
+            entrevistas y mas! scrollca para abajo y mira todo
+            lo que tenemos para vos</h1>
+        <img class="hola" src="./hola-circulo-principal.png" alt="">
+        <img class="img-principal" src="./degradado.png" alt="imagen principal">
+         <img class="pajaro" src="./PAJARODEF.png" alt="">
+        <div class="caricaturas">
 
-    <div class="Container">
-        <div class="container-conciertos"> 
-       <div class="card"> 
-        <img src="./KENDRICK.jpg" alt="">
-        <h3>KENDRICK LAMAR</h3>
+                </div>
+            </div>
+    </div>
+<div class="navegadorr">
+    <nav class="navegador">
+            <img class="logo" src="./LOGO DISCO ROSA.png" alt="">
+            <ul class="lista">
+                <li>Novedades</li>
+                <li>Albums</li>
+                <li>Artistas</li>
+                <li>Merchandising</li>
+                <li>Contacto</li>
+            </ul>
+                <div class="logos-registrar">
+
+                    <input type="checkbox" id="btn-modal">
+
+                        
+
+                    <div class="modal">
+                        <div class="contenedor">
+                            <header>Ingresa tus datos para poder registrarte!</header>
+                            <label for="btn-modal">X</label>
+                            <div class="contenido">
+                            
+                                <form class="registro" action="input">
+                                    <input type="text" placeholder="Nombre">
+                                    <input class="surname" type="text" placeholder="Apellido">
+                                    <input class="email" type="email" placeholder="Email">
+                                    <input class="tel" type="tel" placeholder="Telefono">
+
+                                </form>
+                                <button class="btn-listo">Listo!</button>
+                                <p class="parrafo-cuenta">Tambien podes registrarte con tu cuenta de
+                                    <img src="./footer/google.png" alt="">
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="centrar">
+                        <label for="btn-modal" class="lbl-modal">
+                    <img class="imagen" src="./logo-registrar.png" alt="">
+                   <ul> Registrate
+                </label>
+                    </div>
+
+                    <div class="centrar">
+                        <input type="checkbox" id="btn-modal2">
+
+                        
+
+                        <div class="modal2">
+                            <div class="contenedor">
+                                <header>Ingresa tus datos para Iniciar Sesion!
+                                </header>
+                                <label for="btn-modal2">X</label>
+                                <div class="contenido">
+                                    <form class="registro" action="input">
+                                        <input type="text" placeholder="Email">
+                                        <input class="surname" type="password" placeholder="Contraseña">
+                                        <button class="btn-listo2">Listo!</button>
+                                        <p class="parrafo-cuenta2">Inicia Sesion con
+                                            <img src="./footer/google.png" alt="">
+                                        </p>
+    
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                        <label for="btn-modal2" class="lbl-modal2">
+                        <img class="imagen" src="./logo-iniciar-sesion.png" alt="">
+                        Inicia Sesion
+                        </div>
+
+                        <div class="centrar">
+                            <img class="imagen" src="./logo-carrito.png" alt="">
+                            Carrito </ul>
+                            </div>
+                </div>
+    </nav>
+</div>
+
+</header>
+
+<menu>
+
+    <div class="line-down2"> <img src="./footer/linea.png" alt=""></div>
+    <div class="container">
+        <h2>NUEVOS LANZAMIENTOS!</h2>
+        <ul class="slider">
+            <li id="slider1"> <img src="./IMAGENES HORIZONTALES/nayeon-horizontal.png" alt=""></li>
+            <li id="slider2"> <img src="./IMAGENES HORIZONTALES/pusha-horizontal.png" alt=""></li>
+            <li id="slider3"> <img src="./IMAGENES HORIZONTALES/kendrick-horizontal.png" alt=""></li>
+            <li id="slider4"> <img src="./IMAGENES HORIZONTALES/jack-horizontal.png" alt=""></li>
+            <li id="slider5"> <img src="./IMAGENES HORIZONTALES/thesmile-horizontal.png" alt=""></li>
+        </ul>
+    <ul class="menu">
+        <div class="numeros">
+        <li><a href="#slider1">1</a></li>
+        <li><a href="#slider2">2</a></li>
+        <li><a href="#slider3">3</a></li>
+        <li><a href="#slider4">4</a></li>
+        <li><a href="#slider5">5</a></li>
        </div>
+    </ul>
+    <h3>MIRA LOS ALBUMS RECIEN SALIDOS!</h3>
+   </div>
 
-       <div class="card">
-        <img src="./DAFT.jpg" alt="">
-        <h3>DAFT PUNK</h3>
+    <div class="contenedorprincipal">
+   <div class="container2">
+       <h2 class="proximos">PROXIMOS</h2>
+       <ul class="slider-vertical">
+        <li id="slider-vertical1"> <img src="./IMAGENES VERTICALES PROXIMAMENTE/gorillaz-proximamente.png" alt=""></li>
+        <li id="slider-vertical2"> <img src="./IMAGENES VERTICALES PROXIMAMENTE/mitski-proximamente.png" alt=""></li>
+        <li id="slider-vertical3"> <img src="./IMAGENES VERTICALES PROXIMAMENTE/twice-proximamente.png" alt=""></li>
+        <li id="slider-vertical4"> <img src="./IMAGENES VERTICALES PROXIMAMENTE/jayz-proximamente.png" alt=""></li>
+       </ul>
+       <ul class="menu2">
+        <div class="numeros2">
+        <li><a href="#slider-vertical1">1</a></li>
+        <li><a href="#slider-vertical2">2</a></li>
+        <li><a href="#slider-vertical3">3</a></li>
+        <li><a href="#slider-vertical4">4</a></li>
        </div>
+    </ul>
+    <h3 class="lanzamientos">LANZAMIENTOS</h3>
+   </div>
+</div>
+<div class="line-down3"> <img src="./footer/linea.png" alt=""></div>
+</menu>
 
-       <div class="card">
-           <img src="./BABASONICOS.jpg" alt="">
-           <h3>BABASONICOS</h3>
-       </div>   
-
-       <div class="card">
-           <img src="./TWICE.jpg" alt="">
-           <h3>TWICE</h3>
-       </div>
-
-       <div class="card">
-           <img src="./NINEINCH.jpg" alt="">
-           <h3>NINE INCH NAILS</h3>
-       </div>
-
-
-        <div class="card">
-            <img src="./ARCTICMONKEUS.jpg" alt="">
-            <h3>ARCTIC MONKEYS</h3>
-           </div>
+<menu>
+    <div class="container-duplex">
+        <h2 class="discos">DISCOS MAS VENDIDOS DEL MES</h2>
+    <div class="container-cd-principal">
+        <div class="cd-container-beatles">
+            <button class="button">COMPRAR</button>
+            <button class="button2">AÑADIR AL CARRITO</button>
+          <img class="cd-beatles" src="./CDS/CD BEATLES.png" alt="">
         </div>
 
-        <div class="containerkanye">
-            <div class="kanye">
-                <img src="./KANYE.jpg" alt="">
-                <h4>YE</h4>
-            </div>
-        </div>    
-    </div>
-    
-<h2>THE REVOLUTION IS HERE</h2>
+        <div class="cd-container-nin">
+            <button class="button">COMPRAR</button>
+            <button class="button2">AÑADIR AL CARRITO</button>
+          <img class="cd-nin" src="./CDS/CD NIN.png" alt="">
+        </div>
 
+        <div class="cd-container-iu">
+            <button class="button">COMPRAR</button>
+            <button class="button2">AÑADIR AL CARRITO</button>
+          <img class="cd-iu" src="./CDS/CD IU.png" alt="">
+        </div>
+
+        <div class="cd-container-kanye">
+            <button class="button">COMPRAR</button>
+            <button class="button2">AÑADIR AL CARRITO</button>
+          <img class="cd-kanye" src="./CDS/CD KANYE.png" alt="">
+        </div>
+
+        <div class="cd-container-megadeth">
+            <button class="button">COMPRAR</button>
+            <button class="button2">AÑADIR AL CARRITO</button>
+          <img class="cd-kanye" src="./CDS/CD MEGADETH.png" alt="">
+        </div>
+
+    </div>
+        <div class="container-cd-principal2">
+
+            <div class="cd-container-pantera">
+            <button class="button">COMPRAR</button>
+            <button class="button2">AÑADIR AL CARRITO</button>
+          <img class="cd-pantera" src="./CDS/CD PANTERA.png" alt="">
+             </div>
+
+             <div class="cd-container-strokes">
+                <button class="button">COMPRAR</button>
+                <button class="button2">AÑADIR AL CARRITO</button>
+              <img class="cd-strokes" src="./CDS/CD STROKES .png" alt="">
+                 </div>
+
+             <div class="cd-container-weeknd">
+                <button class="button">COMPRAR</button>
+                <button class="button2">AÑADIR AL CARRITO</button>
+              <img class="cd-weeknd" src="./CDS/CD WEEKND.png" alt="">
+                 </div>
+
+
+                     <div class="cd-container-radiohead">
+                        <button class="button">COMPRAR</button>
+                        <button class="button2">AÑADIR AL CARRITO</button>
+                      <img class="cd-radiohead" src="./CDS/CD RADIOHEAD.png" alt="">
+                         </div>
+
+                         <div class="cd-container-coltrane">
+                            <button class="button">COMPRAR</button>
+                            <button class="button2">AÑADIR AL CARRITO</button>
+                          <img class="cd-radiohead" src="./CDS/CD COLTRANE.png" alt="">
+                             </div>
+            </div>
+        </div>
+        <div class="line-down4"> <img src="./footer/linea.png" alt=""></div>
+</menu>
+
+<section>
+    <div class="sliderr">
+        <h2 class="artistas-del-momento">ARTISTAS DEL MOMENTO</h2>
+        
+    <div class="slider-track">
+    <div class="slide">
+        <img class="slide-vertical1" src="./IMAGENES VERTICALES ARTISTAS/arctic.png" alt="">
+    </div>
+
+    <div class="slide2">
+        <img class="slide-vertical2" src="./IMAGENES VERTICALES ARTISTAS/ghost.png" alt="">
+    </div>
+
+    <div class="slide3">
+        <img class="slide-vertical3" src="./IMAGENES VERTICALES ARTISTAS/twice.png" alt="">
+    </div>
+
+    <div class="slide4">
+        <img class="slide-vertical4" src="./IMAGENES VERTICALES ARTISTAS/iu.png" alt="">
+    </div>
+
+    <div class="slide5">
+        <img class="slide-vertical5" src="./IMAGENES VERTICALES ARTISTAS/frank.png" alt="">
+    </div>
+
+    <div class="slide6">
+        <img class="slide-vertical6" src="./IMAGENES VERTICALES ARTISTAS/tyler.png" alt="">
+    </div>
+    <div class="slide">
+        <img class="slide-vertical1" src="./IMAGENES VERTICALES ARTISTAS/arctic.png" alt="">
+    </div>
+
+    <div class="slide2">
+        <img class="slide-vertical2" src="./IMAGENES VERTICALES ARTISTAS/ghost.png" alt="">
+    </div>
+
+    <div class="slide3">
+        <img class="slide-vertical3" src="./IMAGENES VERTICALES ARTISTAS/twice.png" alt="">
+    </div>
+
+    <div class="slide4">
+        <img class="slide-vertical4" src="./IMAGENES VERTICALES ARTISTAS/iu.png" alt="">
+    </div>
+
+    <div class="slide5">
+        <img class="slide-vertical5" src="./IMAGENES VERTICALES ARTISTAS/frank.png" alt="">
+    </div>
+
+    <div class="slide6">
+        <img class="slide-vertical6" src="./IMAGENES VERTICALES ARTISTAS/tyler.png" alt="">
+    </div>
+    </div>
+</div>
+</section>
+
+<footer>
+    <div class="footer-color">
+     <div class="imagenes"><img class="sujeto" src="./footer/sujeto.png" alt="">
+        <img class="line-down" src="./footer/linea.png" alt="">
+    </div>
+     <div class="contacto"><h2>Contactanos!</h2>
+        <img class="line" src="./footer/linea.png" alt="">
+       <img class="logos" src="./footer/location.png" alt=""><h4>Avenida Siempre Viva 743</h4>
+       <img class="logos" src="./footer/wpp.png" alt=""><h4>011-902030</h4>
+       <img class="line" src="./footer/linea.png" alt="">
+     </div>
+       <div class="formulario"> 
+           <form action="">
+               <p>Podes dejarnos un mensaje y nos contactaremos a la brevedad</p>
+            <input placeholder="Nombre" type="text">
+            <input placeholder="Apellido" type="text">
+            <input placeholder="Mail" type="email">
+            <input class="mensaje" placeholder="Mensaje" type="text">
+            <button class="enviar">ENVIAR</button>
+           </form>
+        </div>
+        <div class="texto-footer">
+            <div class="footer-conocenos"> 
+                <h4 class="conocenos"> Conocenos</h4>
+                <p>_Ayuda</p>
+                <p>_Envios</p>
+                <p>_Contacto</p>
+            </div>
+
+            <div class="footer-productos">
+                <h4 class="productos"> Productos</h4>
+                <p>_Albumes</p>
+                <p>_Remeras</p>
+                <p>_Figuras</p>
+            </div>
+
+            <div class="footer-cuenta">
+                <h4 class="cuenta"> Mi Cuenta</h4>
+                <p>_Registrate</p>
+                <p>_Inicia Sesion</p>
+                <p>_Ayuda</p>
+            </div>
+               <div>
+                   <img class="disc" src="./LOGO DISCO AZUL.png" alt="">
+               </div>
+
+
+               <div class="pago">
+                <div class="seguinos">
+                    <h4 class="seguinoss">Seguinos!</h4>
+                    <img src="./footer/instagram.png" alt="">
+                    <img src="./footer/facebook.png" alt="">
+                    <img src="./footer/tiktok.png" alt="">
+                    <img src="./footer/youtube.png" alt="">
+              </div>
+
+                 <h4 class="pagoss">Medios de Pago</h4>
+                 <div class="tarjetas">
+                 <img src="./footer/tarjeta1.png" alt="">
+                 <img src="./footer/tarjeta2.png" alt="">
+                 <img src="./footer/tarjeta3.png" alt="">
+                 <img src="./footer/tarjeta4.png" alt="">
+                 <img src="./footer/tarjeta5.png" alt="">
+                </div>
+               </div>
+               
+               <div class="footer-down">
+                <p class="replay">Replay Music Records - Copyright 2022 - Todos los derechos reservados</p>
+               </div>
+
+        </div>
+       </div>
+       
+    </div>
+</footer>
 </body>
 </html>
