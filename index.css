@@ -9,6 +9,8 @@
 body {
     background: rgb(255,161,229);
     background: linear-gradient(90deg, rgba(255,161,229,1) 0%, rgba(255,132,232,1) 100%);
+    font-family: anton;
+
 }
 
 
