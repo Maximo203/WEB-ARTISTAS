@@ -5,6 +5,14 @@
     text-decoration: none;
     font-family: anton;
     list-style: none;
+
+    @font-face {
+        font-family: anton;
+        src: url(Anton-Regular.ttf);
+    }    @font-face {
+        font-family: montserrat;
+        src: url(Montserrat-SemiBold.ttf);
+    }
 }
 body {
     background: rgb(255,161,229);
