@@ -37,10 +37,12 @@ nav {
     bottom:0;
 }
 
+
 .logos {
-    width: 3rem;
+
      position: relative;
      top: 10;
+     padding: 0.8rem;
 }
 
 .enlace{
@@ -60,10 +62,12 @@ nav ul li{
 nav ul li a{
     color: #FF84E8;
     font-size: 1.6rem;
-    padding: 0.5rem rem;
+    padding: 0.5rem;
     border-radius: 3px;
     font-family: anton;
     text-transform: uppercase;
+    position: relative;
+    bottom: 10;
 }
 li a:hover{
     text-decoration: underline;
@@ -407,7 +411,7 @@ ul.slider li:target {
 
        
       
-    top: 1100;
+    top: 1500;
     left: 0;
     right: 0;
     bottom: 0;
@@ -491,12 +495,7 @@ ul.slider li:target {
    
    }
 
-   .cd1 {
-    
 
- 
- 
- }
  
  .cd1 img {
      width: 14rem;
